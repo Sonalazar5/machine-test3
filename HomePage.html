@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin: 20px 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Online Voting System</h1>
+    </header>
+    <nav>
+        <a href="admin/login.php">Admin Panel</a>
+        <a href="user/view.php">User Panel</a>
+    </nav>
+    <main>
+        <h2>Your Vote, Your Voice</h2>
+        <p>Choose your leaders responsibly. Click on the panel to proceed.</p>
+        <a href="admin/login.php" class="button">Admin Login</a>
+        <a href="user/view.php" class="button">View Candidates</a>
+    </main>
+</body>
+</html>
